@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="subaru forester"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView_subaruforester"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="@+id/textView2"
+                app:srcCompat="@drawable/subaruforester" />
+
+            <Button
+                android:id="@+id/button_subaruforester"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="view car"
+                android:background="@drawable/item_bg"
+                android:backgroundTint="#6787"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="toyota v eight" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:srcCompat="@drawable/v_eight" />
+            <Button
+                android:id="@+id/button_v_eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="view car"
+                android:background="@drawable/item_bg"
+                android:backgroundTint="#6787"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView_highlander"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="toyota highlander" />
+
+            <ImageView
+                android:id="@+id/imageView_toyota_highlander"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:srcCompat="@drawable/totota_highlander" />
+            <Button
+                android:id="@+id/button_highlander"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="view car"
+                android:background="@drawable/item_bg"
+                android:backgroundTint="#6787"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView_hilux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="toyota hilux"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView_hilux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="@+id/textView2"
+                app:srcCompat="@drawable/toyota_hilux" />
+
+            <Button
+                android:id="@+id/button_hilux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="view car"
+                android:background="@drawable/item_bg"
+                android:backgroundTint="#6787"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

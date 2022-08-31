@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944208990737",
+    "project_id": "car-hire-101e1",
+    "storage_bucket": "car-hire-101e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944208990737:android:f5298393c6f51c004d97b0",
+        "android_client_info": {
+          "package_name": "com.codingstuff.loginandsignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944208990737-fs810d4e90b9vtld12vm40e6vbcfftuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtS6IrPSGtl3OkdR5-ReLK9OJCb9_nfdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944208990737-fs810d4e90b9vtld12vm40e6vbcfftuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
